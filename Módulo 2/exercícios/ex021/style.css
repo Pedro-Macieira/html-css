@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #F2EBC9;
+    background-image: linear-gradient(to bottom, #F4C7B6, #bb826d);
+    background-attachment: fixed;
+    margin: 5px;
+    text-align: justify;
+}
+header {
+    background-color: #D9B779;
+    text-align: center;
+    width: 550px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.274) 7px 7px 7px;
+}
+
+nav {
+    background-color: #04C4D9;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #1d525e;
+    
+}
+
+section#energia{
+    background-color: #A2EAF2;
+    margin: auto;
+    max-width: fit-content;
+    min-width: none;
+    border-radius: 10px;
+    width: 1500px;
+    padding: 10px;
+    border: 5px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.274);
+
+}
+
+section#hidro{
+    background-color: #A2EAF2;
+    margin: auto;
+    max-width: fit-content;
+    min-width: none;
+    border-radius: 10px;
+    width: 1500px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.274);
+
+}   
+
+main {
+    
+}
+
+footer {
+    background-color: #b36245;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 0px;
+}

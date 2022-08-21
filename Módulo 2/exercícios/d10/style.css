@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url('./Arquivos/fontes/idroid.otf');
+  }
+
+body {
+    margin: 0;
+    background-color: #84E1AD;
+    
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #195B38;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2, h3 {
+    font-family: idroid;
+    color: #69947C;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #42DC88, #195B38);
+    margin-left: 0;
+    padding-top: 40px;
+    height: 150px;
+    text-align: center;
+}
+
+header > h1 {
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.37);
+    margin: 0;
+    padding-bottom: 25px;
+    
+}
+
+header > p {
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.37);
+    margin: 0;
+}
+
+nav {
+    background-image: linear-gradient(to bottom, #195B38,#154b2e);
+    color: white;
+    padding-bottom: 8px;
+    
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+nav >a:hover {
+    text-decoration: underline;
+    background-color: #207e4cbd;
+    background-image: cross-fade(#207e4cbd);
+}
+
+main {
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.329);
+    padding: 8px;
+    text-align: justify;
+    
+    
+}
+
+
+#vid {
+    text-align: center;
+    background-color: #154b2e;
+}
+
+#hist > h2 {
+    margin: 0;
+    padding-top: 20px;
+    
+}
+
+#pri > h3 {
+    background-image: linear-gradient(to right, #C5EBD6, white);
+    padding: 4px;
+}
+
+#surge > h3 {
+    background-image: linear-gradient(to right, #C5EBD6, white);
+    padding: 4px;
+}
+
+#top {
+    background-color: #42DC88;
+    color: white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 2px 8px;
+    width: 95%;
+    margin: auto;
+    margin-top: 16px;
+    font-weight: bolder;
+}
+
+#list {
+    width: 95%;
+    background-color: #84E1AD;
+    margin: auto;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 2px 8px;
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 280px;
+}
+
+footer {
+    background-color: #154b2e;
+    text-align: center;
+    color: white;
+    margin-top: 8px;
+}
+
+footer > p {
+    margin: 0;
+    padding: 8px;
+}
